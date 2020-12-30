@@ -1,0 +1,37 @@
+{
+    "url": "https://dark-depth-298212.appspot.com",
+    "server": {
+      "port": 8080,
+      "host": "0.0.0.0"
+    },
+    "database": {
+      "client": "mysql",
+      "connection": {
+        "host": "34.67.84.94",
+        "port": "3306",
+        "user": "root",
+        "password": "abc@123",
+        "database": "ghost"
+      }
+    },
+    "mail": {
+      "transport": "Direct"
+    },
+    "logging": {
+      "transports": [
+        "file",
+        "stdout"
+      ]
+    },
+    "process": "systemd",
+    "paths": {
+      "contentPath": "/var/lib/ghost/content"
+    },
+    "storage": {
+        "active": "ghost-gcs",
+        "ghost-gcs": {
+            "key": "credentials.json",
+            "bucket": "ghost-test"
+        }
+    }
+}

@@ -16,7 +16,11 @@ gcloud app deploy
 ```  
 
 ## Sources
+
 [Ghost blog on App Engine](https://dev.to/thomasvl/ghost-blog-on-app-engine-9nh)
+
 [Configuring your App with app.yaml](https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml)
+
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
